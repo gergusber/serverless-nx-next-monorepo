@@ -12,7 +12,10 @@
         "target": "node",
         "compiler": "tsc",
         "outputPath": "dist/apps/my-workspace",
-        "main": "apps/my-workspace/src/main.ts",
+        "main": "apps/my-workspace/src/local-main.ts",
+        "optimization": false,
+        "extractLicenses": true,
+        "inspect": false,
         "tsConfig": "apps/my-workspace/tsconfig.app.json",
         "assets": ["apps/my-workspace/src/assets"],
         "webpackConfig": "apps/my-workspace/webpack.config.js"
